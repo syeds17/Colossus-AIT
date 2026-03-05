@@ -104,38 +104,6 @@ className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 flex items-center
 
       {/* Right Controls */}
       <div className="flex items-center gap-6">
-        {/* Music Toggle
-        <motion.button
-          onClick={toggleMusic}
-          className="relative p-2 transition-all duration-300 hover:opacity-60"
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.95 }}
-          aria-label={isMusicPlaying ? 'Mute music' : 'Play music'}
-        >
-          <AnimatePresence mode="wait">
-            {isMusicPlaying ? (
-              <motion.div
-                key="playing"
-                initial={{ opacity: 0, rotate: -90 }}
-                animate={{ opacity: 1, rotate: 0 }}
-                exit={{ opacity: 0, rotate: 90 }}
-                transition={{ duration: 0.2 }}
-              >
-                <Volume2 size={18} strokeWidth={1.5} />
-              </motion.div>
-            ) : (
-              <motion.div
-                key="muted"
-                initial={{ opacity: 0, rotate: -90 }}
-                animate={{ opacity: 1, rotate: 0 }}
-                exit={{ opacity: 0, rotate: 90 }}
-                transition={{ duration: 0.2 }}
-              >
-                <VolumeX size={18} strokeWidth={1.5} />
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </motion.button> */}
 
         {/* Theme Toggle */}
         <motion.button
