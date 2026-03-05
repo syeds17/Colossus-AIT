@@ -104,7 +104,7 @@ className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 flex items-center
 
       {/* Right Controls */}
       <div className="flex items-center gap-6">
-        {/* Music Toggle */}
+        {/* Music Toggle
         <motion.button
           onClick={toggleMusic}
           className="relative p-2 transition-all duration-300 hover:opacity-60"
@@ -135,7 +135,7 @@ className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 flex items-center
               </motion.div>
             )}
           </AnimatePresence>
-        </motion.button>
+        </motion.button> */}
 
         {/* Theme Toggle */}
         <motion.button
